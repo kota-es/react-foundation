@@ -1,7 +1,9 @@
-export default function Page2() {
+const Page2 = () => {
   return (
     <main>
-      <h1>ページ2</h1>
+      <h1 className="text-3xl font-bold underline">Page2</h1>
     </main>
   );
-}
+};
+
+export default Page2;

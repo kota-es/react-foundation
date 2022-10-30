@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import Page1 from "./pages/Page1";
 import Page2 from "./pages/Page2";
 
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
       <Routes>
@@ -13,6 +13,6 @@ function App() {
       </Routes>
     </BrowserRouter>
   );
-}
+};
 
 export default App;
